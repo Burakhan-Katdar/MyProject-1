@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap');
+
+.NavBar{
+    background-image: url(pexels-valeria-boltneva-1639563.jpg);
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.navbar{
+    margin-top: 2%;
+    position: absolute;
+    width: 100%;
+    margin-left: 3%;
+}
+.logo{
+    height: 80px;
+    background-color: #aaaaaa;
+    border: aliceblue;
+}
+.nav-item a{
+    color: aliceblue !important;
+    font-size:xx-large;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-item a:hover{
+    color: goldenrod !important;
+}
+.NavText{
+    width: 50%;
+    height: 250px;
+    text-align: left;
+    float: left;
+    margin-top: 10%;
+    margin-left: 2%;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.NavText1{
+    text-align: right;
+    float: right;
+    margin-top: 10%;
+    margin-right: 2%;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 50%;
+}
+
+.Bolum1{
+    width: 100%;
+    height: 800px;
+    background-color: #0d0d0d;
+    position: relative;
+}
+.solCizgi{
+    
+    width: 3px;
+    height: 800px;
+    float: left;
+    background-color: goldenrod;
+    margin-left: 4%;
+}
+.sagCizgi{
+
+    width: 3px;
+    height: 800px;
+    float: right;
+    margin-right: 4%;
+    background-color: goldenrod;
+}
+
+.logo1{
+   position: absolute;
+   margin-left: 46%;
+   margin-top: 5%;
+}
+.BolumText1{
+    color: aliceblue;
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    text-align: center;
+    margin-left: 29%;
+    margin-top: 20%;
+}
+
+.Bolum2{
+    width: 100%;
+    height: 800px;
+    background-image: url(./ızgara.jpg);
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+}
+.BolumText2{
+    text-align: center;
+    margin-top: 30%;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.randevu{
+    width: 100%;
+    height: 700px;
+    background-color: #0d0d0d;
+    color: aliceblue;
+    position: relative;
+}
+.people{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid goldenrod;
+}
+.form1{
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    margin-left: 25%;
+    justify-content: center;
+    padding: 25px 30px;
+    margin-left: 25%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+.form1 form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input-box{
+    width: calc(100% / 2 - 20px);
+    margin: 20px, 0, 12px,0;
+}
+.user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+.user-details .input-box input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid goldenrod;
+}
+.button{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#randevuAl{
+    font-family: 'Oswald', sans-serif;
+    color: goldenrod;
+    font-size: 72px;
+    margin-left: 35%;
+    margin-top: 7%;
+    position: absolute;
+}
+
+#button{
+    width: 400px;
+    height: 50px;
+    background-color: goldenrod;
+    color: black;
+    font-size: 24px;
+}
+
+.solCizgi1{
+    
+    width: 3px;
+    height: 700px;
+    float: left;
+    background-color: goldenrod;
+    margin-left: 4%;
+}
+.sagCizgi1{
+
+    width: 3px;
+    height: 700px;
+    float: right;
+    margin-right: 4%;
+    background-color: goldenrod;
+}
+
+.Bolum3{
+    width: 100%;
+    height: 800px;
+    background-image: url(./steak1.jpg);
+    position: relative;
+}
+.Bolum4{
+    width: 100%;
+    height: 500px;
+    background-color: #272525;
+    position: relative;
+}
+.BolumText3{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+
+    margin-left: 25%;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+    position: absolute;
+}
+
+.solCizgi2{
+    
+    width: 3px;
+    height: 500px;
+    float: left;
+    background-color: goldenrod;
+    margin-left: 4%;
+}
+.sagCizgi2{
+
+    width: 3px;
+    height: 500px;
+    float: right;
+    margin-right: 4%;
+    background-color: goldenrod;
+}
+.last{
+    width: 100%;
+    height: 200px;
+    background-color: #0d0d0d;
+}
+
